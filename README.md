@@ -50,7 +50,7 @@ mkdir playwright-swag-labs
 cd playwright-swag-labs
 
 # Or clone from repository
-git clone <your-repo-url>
+git clone git@github.com:ShevaLabs/playwright-test-demo.git
 ```
 
 ### 2. Install dependencies
