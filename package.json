@@ -1,0 +1,33 @@
+{
+  "name": "playwright-swag-labs",
+  "version": "1.0.0",
+  "description": "Playwright test framework for SauceDemo",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^20.19.37",
+    "dotenv": "^16.6.1",
+    "typescript": "^5.9.3"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShevaLabs/playwright-test-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ShevaLabs/playwright-test-demo/issues"
+  },
+  "homepage": "https://github.com/ShevaLabs/playwright-test-demo#readme"
+}
