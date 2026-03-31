@@ -66,5 +66,4 @@ __pycache__/
 *.py[cod]
 node_modules
 test-results
-package-lock.json
 config/test-results.json
